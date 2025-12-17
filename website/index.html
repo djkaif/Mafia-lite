@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mafia Lite</title>
+</head>
+<body>
+  <h1>Mafia Lite</h1>
+  <input id="code" placeholder="Room Code">
+  <button onclick="join()">Join</button>
+
+  <script>
+    function join() {
+      location.href = "play.html?code=" + document.getElementById("code").value;
+    }
+  </script>
+</body>
+</html>
