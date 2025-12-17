@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from mafia import ROOMS, create_room, cleanup
+from .mafia import ROOMS, create_room, cleanup
 import random
 
 app = FastAPI()
